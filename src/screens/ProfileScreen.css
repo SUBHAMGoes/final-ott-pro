@@ -1,0 +1,91 @@
+.profileScreen{
+    height: 100vh;
+    color: white;
+}
+
+.profileScreen_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+
+.profileScreen_info{
+    display: flex;
+}
+
+
+.profileScreen_info > img {
+    height: 150px;
+}
+
+.profileScreen_info > h1 {
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.profileScreen_details{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+}
+
+.profileScreen_details > h2 {
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.profileScreen_signout{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #3225a7;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.profileScreen_plan {
+    margin-top: 20px;
+}
+
+.profileScreen_plan > h3 {
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+
+.profileplan_details{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+    padding: 15px;
+}
+
+.profileScreen_subscribe{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #3225a7;
+    font-weight: 600;
+    border: none;
+    cursor: pointer
+}
+
+.feedback{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
